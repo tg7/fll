@@ -1,10 +1,18 @@
-body { 
-  background: url(images/carBg.jpeg) no-repeat center center fixed; 
+html { 
+
+   
+}
+body {
+
+ background: url("../images/carbg.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+}
+
 
 .header {
 
