@@ -4,6 +4,11 @@
 <head>
 
 <title>Fast Lane Leasing</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!--CSS-->
+    <link rel='stylesheet' href='assets/css/styles.css' type="text/css">
 
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,13 +18,15 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-     <!--CSS-->
-    <link rel='stylesheet' href='assets/css/styles.css' type="text/css">
+    <!--Slider-->
+     <link rel="stylesheet" href="assets/js/ideal-image-slider.css">
+    <link rel="stylesheet" href="assets/js/themes/default/default.css">
+    <!--End Of Slider-->
+     
 
 </head>
 
 <body>
-
     <div class="row">
       <div class="col-md-12">
         <div class="header">
@@ -38,7 +45,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Fast Lane Leasing</a>
+      <a class="brand" href="#"><img src="assets/images/logo3.png" height="60px" width="94px" alt="logo">
+         <!-- <p class="white">Call us today (917) 203-3020</p> --></a>
+
+
+      
+      <!-- <p class="white">Call Us (917) 203-1039</p></a> -->
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,6 +63,7 @@
       <!-- <form class="navbar-form navbar-left">
       
       </form> -->
+      
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li> 
@@ -67,6 +81,7 @@
           </ul> -->
         <!-- </li> -->
       </ul>
+
     </div><!-- /.navbar-collapse -->
   <!-- </div> --><!-- /.container-fluid -->
   </div>
@@ -74,11 +89,106 @@
           <!-- </div> -->
         </div>
       </div>
-      <div class="container">
-      </div>
     </div>
     
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <!-- <p class="white">
+            Welcome to Fast Lane Leasing. The South Shores very own leasing company , serving customers with knowledge, service and affordability.
+
+            Buying or leasing a vehicle can be frustrating. Here at Fast Lane Leasing we eliminate the headache with our team of experienced professionals.
+
+            As an added bonus, we not only place you directly in the driver's seat of your new vehicle without having to set foot inside of a dealership, but also deliver it right to your home or office.
+
+            With our top of the line technology , the car of your dreams is just a click away. Call today for a complimentary consultation & learn the Fast Lane way.
+
+
+          </p> -->
+        </div>
+      </div>
+
+      <div class="row mainArea">
+      <div class="col-md-3 text-center">
+        
+      <button class="btn btn-primary">Request A Quote</button>
+
+        </div>
+
+        <div class="col-md-9 text-center">
+
+        <!--Slider-->
+
+          <div id="slider">
+            <img src="assets/images/toyota.png" alt="">
+            <img data-src="assets/images/infiniti2.png" src="" alt="">
+            <img data-src="assets/images/mercedes.png" src="" alt="">
+          </div>
+
+    <!-- Include slider JS file -->
+    <script src="assets/js/ideal-image-slider.js"></script>
+    <!-- Create your slider -->
+    <script>
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 4000
+});
+slider.start();
+
+    </script>
+
+        <!--End of Slider-->
+
+        </div>
+     
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 attributes">
+        <img src="#" width="75%" height="300px">
+        </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8 text-center">
+          <h4 class="white">Map Goes Here</h4>
+          <img src="#" width="100%" height="500px">
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+    </div>
+
+
+    
+
+
 
 </body>
 
 </html>
+
+<!-- <div class="col-md-3">
+          <div class="panel-default text-center">
+            <div class="panel-heading">
+              <h4 class="panel-title">Specials</h4>
+            </div>
+            <div class="panel-body">            
+              <img src="assets/images/infiniti2.png" class="specialCar" width="225" height="140">
+                <h5 class="panel-title">Infiniti <span class="label label-success">$249/mo</span></h5>
+              <img src="assets/images/mercedes.png" class="specialCar" width="225" height="140">
+                <h5 class="panel-title">Mercedes <span class="label label-success">$319/mo</span></h5>
+              <img src="assets/images/toyota.png" class="specialCar" width="225" height="140">
+                <h5 class="panel-title">Toyota <span class="label label-success">$199/mo</span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+
+          
+          
+        </div> -->

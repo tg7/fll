@@ -4,12 +4,12 @@ html {
 }
 body {
 
- background: url("../images/carbg.jpg") no-repeat center center fixed; 
+/* background: url("../images/bgMain.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 }
 
@@ -20,3 +20,59 @@ body {
 
 }
 
+.specialCar {
+
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.panel-body {
+
+  padding: 0px;
+  background: rgba(250, 250, 250, .9);
+
+}
+
+.white {
+
+  color: white;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.attributes {
+
+  background-color: white;
+}
+
+.center {
+
+  margin: 0 auto;
+}
+
+.mainArea {
+
+  position: relative;
+}
+
+.buttonOver {
+
+  top: 150px;
+  position: fixed;
+}
+
+
+.navbar {
+
+ padding: 15px 0px 15px 0px;
+}
+
+.white {
+
+  color: white;
+}
