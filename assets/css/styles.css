@@ -135,6 +135,16 @@ body {
   padding-top: 30px;
 }
 
+#satisfaction {
+
+  background-color: #4caf50;
+  padding: 20px;
+}
+
+.trophy {
+
+  padding: 20px;
+}
 
 /* Google Map Responsiveness */
 
@@ -155,8 +165,16 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 480px) {
+
+           
+            h2 {
+
+              font-size: 14px;
+             
+            }
             p {
                 font-size: 12px;
+                color: red;
             }
 
             h3{
