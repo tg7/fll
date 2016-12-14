@@ -22,6 +22,11 @@ body{
 
 }
 
+.links {
+
+  
+}
+
 .header {
 
   background-color: black;
@@ -66,10 +71,11 @@ body{
 
 .mainArea {
 
-background: url("../images/nyc-bg.jpg") no-repeat center center fixed;
+background: url("../images/nyc_skyline.jpg") no-repeat center center fixed;
 
+padding: 30px;
 background-size: cover;
-height: 600px;
+width: 100%;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -79,6 +85,30 @@ color: white;
 
 
 
+}
+
+.headerBlock {
+
+    width: 100
+    padding-bottom: 6px;
+    color: #fff;
+    background-color: #b21f27;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+
+}
+
+.bottom {
+
+  padding: 10px;
+  background-color: white;
+  color: black;
 }
 
 .buttonOver {
@@ -138,11 +168,6 @@ color: white;
   padding-bottom: 20px;
 }
 
-.bottomArea {
-
-  margin-bottom: 50px;
-}
-
 #footer {
 
   background-color: black;
@@ -183,7 +208,7 @@ color: white;
 
   .mainArea {
 
-              background: url("../images/nyc-bg.jpg") no-repeat center center fixed;
+              background: url("../images/nyc_skyline.jpg.jpg") no-repeat center center fixed;
 
               -webkit-background-size: cover;
               -moz-background-size: cover;
@@ -200,7 +225,7 @@ color: white;
 
             .mainArea {
 
-              background: url("../images/nyc-bg.jpg") no-repeat center center fixed;
+              background: url("../images/nyc_skyline.jpg") no-repeat center center fixed;
 
               -webkit-background-size: cover;
               -moz-background-size: cover;
@@ -240,6 +265,10 @@ color: white;
             margin: 0 auto;
             width: 75%;
           }
+            .bottom {
+
+              text-align: center;
+            }
         }
 
 /*@media screen and (max-width: 400px) {
@@ -258,6 +287,13 @@ color: white;
   box-shadow: 0 2px 5px 0 rgba(250, 250, 250, 0.26), 0 2px 8px 5px rgba(250, 250, 250, 0.22);
   padding-top: 20px;
 }
+
+.cardSpecial {
+
+  background: rgba(250, 250, 250, 0.85);
+  color: black;
+}
+
 
 .card {
   margin-top: 10px;
@@ -306,11 +342,19 @@ color: white;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px;
 }
+
+
 .card .card-action a {
   color: #ffab40;
   margin-right: 16px;
   transition: color 0.3s ease;
   text-transform: uppercase;
+}
+
+.card-action-special a {
+
+  padding: 16px;
+  color: black;
 }
 
 h6 {
